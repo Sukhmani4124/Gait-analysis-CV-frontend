@@ -530,9 +530,6 @@ def plot_gait_graph(results: dict, options: dict) -> plt.Figure:
     return fig
 
 
-
-
-
 # ──────────────────────────────────────────────
 # SESSION STATE INITIALISATION
 # ──────────────────────────────────────────────
@@ -806,7 +803,6 @@ else:
         "padding:1rem 0;'>Step detection graph will render after analysis.</p>",
         unsafe_allow_html=True,
     )
-
 
 
 # ──────────────────────────────────────────────
